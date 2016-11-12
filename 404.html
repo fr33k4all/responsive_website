@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Fruit Facts - Error</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="masthead" role="banner">
+            <h1>Fun With Fruit</h1>
+            <!-- the header needs a background image that fills the whole header -->
+        </header>
+        <main class="full-width">
+            <section class="padme">
+                <h2>Oops! Something went wrong...</h2>
+                <p>It looks like somehow we took you somewhere that you didn't want to go... The good news is, we can get you back on track to more fruit right away!</p>
+                <button class="navbutton" onclick="goBack()"><h2>Go Back</h2></button>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer class="footer text-muted pull-bottom" role="contentinfo">
+            <p>&copy; 2016 Fun Fruit Facts LLC</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
